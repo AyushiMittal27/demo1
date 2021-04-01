@@ -15,6 +15,7 @@ const BoxDetail = ({ details, color, font }) => {
           style={{
             fontFamily: font,
             backgroundColor: " #e6e6ff",
+            padding: "5px",
           }}
         >
           {title}
