@@ -10,7 +10,7 @@ const BoxDetail = ({ details, color, font }) => {
 
   return (
     <Card>
-      <CardContent style={{ padding: "0px" }}>
+      <CardContent style={{ padding: "1px" }}>
         <Typography
           style={{
             fontFamily: font,

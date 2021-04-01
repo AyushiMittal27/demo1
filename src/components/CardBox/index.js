@@ -30,16 +30,23 @@ const CardBox = () => {
 
   return (
     <React.Fragment>
-      {staticData.map((obj, i) => {
-        return (
-          <BoxDetail
-            key={i}
-            color={obj.data.Color}
-            font={obj.display.fontName}
-            details={obj}
-          />
-        );
-      })}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+        }}
+      >
+        {staticData.map((obj, i) => {
+          return (
+            <BoxDetail
+              key={i}
+              color={obj.data.Color}
+              font={obj.display.fontName}
+              details={obj}
+            />
+          );
+        })}
+      </div>
     </React.Fragment>
   );
 };
