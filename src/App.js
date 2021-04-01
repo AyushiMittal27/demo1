@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
-import "./App.css";
+import CardBox from "./components/CardBox";
+import CardTrial from "./components/cardTrial";
 
 const App = () => {
-  return <div></div>;
+  return <CardBox />;
 };
 
 export default App;
